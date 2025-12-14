@@ -1,0 +1,55 @@
+//Podstawy GIT z konsoli
+
+git --version  //Sprawdzanie wersji
+
+
+git config --global user.name "Twoje Imię" 
+git config --global user.email "twoj@email.com"
+
+ 
+git config --list //lista konfiguracji
+
+
+git init //tworzenie nowego repozytorium
+
+
+git clone https://github.com/uzytkownik/nazwa-repo.git  //klonowanie z istniejącego repozytorium
+
+git status //sprawdzanie czy mamy coś zatwierdzone
+
+git add plik.txt //dodanie jednego pliku do commita
+
+git add . //dodanie wyszstkich plików do zatwierdzenie
+
+git commit -m "Opis zmian" //zapis zmian
+
+git remote -v //sprawdzanie zdalnego repo
+
+git remote add nazwa_repozyttorium https://gitchub.com/nazwa_użytkownika/nazwa_repozytorium.git
+ 
+git push //wysyłanie zmian
+git push -u origin main //czasem trzeba tak
+git pull //pobieranie zmian
+git pull origin main --rebase
+
+git ls-remote --heads origin
+
+INSTALACJA dodatku do terminala gitchub 
+winget install --id GitHub.cli
+gh --version
+gh auth login
+
+gh repo create bash --public --source=. --remote=origin --push
+//Tworzy repo na GitHubie i wrzua do niego to, co mam teraz w tym folderze
+
+lub
+
+
+gh repo create moj-projekt --private
+gh repo create --source=. --public
+gh repo create --clone
+
+
+
+
+
