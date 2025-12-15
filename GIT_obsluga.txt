@@ -3,14 +3,14 @@
 git --version  //Sprawdzanie wersji
 
 
-git config --global user.name "Twoje Imię" 
-git config --global user.email "twoj@email.com"
+1) git config --global user.name "Twoje Imię" 
+2) git config --global user.email "twoj@email.com"
 
  
 git config --list //lista konfiguracji
 
 
-git init //tworzenie nowego repozytorium
+3) git init //tworzenie nowego repozytorium
 
 
 git clone https://github.com/uzytkownik/nazwa-repo.git  //klonowanie z istniejącego repozytorium
@@ -19,10 +19,11 @@ git status //sprawdzanie czy mamy coś zatwierdzone
 
 git add plik.txt //dodanie jednego pliku do commita
 
-git add . //dodanie wyszstkich plików do zatwierdzenie
+4) git add . //dodanie wyszstkich plików do zatwierdzenie
 
-git commit -m "Opis zmian" //zapis zmian
+5) git commit -m "Opis zmian" //zapis zmian
 
+6) git log
 git remote -v //sprawdzanie zdalnego repo
 
 git remote add nazwa_repozyttorium https://gitchub.com/nazwa_użytkownika/nazwa_repozytorium.git
