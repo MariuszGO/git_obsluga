@@ -24,6 +24,12 @@ git add plik.txt //dodanie jednego pliku do commita
 5) git commit -m "Opis zmian" //zapis zmian
 
 6) git log
+
+7) git revert id_do_którego_się_cofamy  (id można odczytać przez git log)
+lub
+8) git reset --hard e101a3334c2cc1cc1a1ae5027b366c8d764661bb
+
+
 git remote -v //sprawdzanie zdalnego repo
 
 git remote add nazwa_repozyttorium https://gitchub.com/nazwa_użytkownika/nazwa_repozytorium.git
@@ -48,7 +54,7 @@ lub
 
 gh repo create moj-projekt --private
 gh repo create --source=. --public
-gh repo create --clone
+gh repo create --clonecd 
 
 
 
