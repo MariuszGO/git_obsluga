@@ -32,7 +32,7 @@ lub
 
 git remote -v //sprawdzanie zdalnego repo
 
-git remote add nazwa_repozyttorium https://gitchub.com/nazwa_użytkownika/nazwa_repozytorium.git
+git remote add nazwa_repozyttorium https://github.com/nazwa_użytkownika/nazwa_repozytorium.git
  
 git push //wysyłanie zmian
 git push -u origin main //czasem trzeba tak
