@@ -1,3 +1,4 @@
+//Program git  można pobrać z https://git-scm.com/install/windows
 //Podstawy GIT z konsoli
 
 git --version  //Sprawdzanie wersji
@@ -55,6 +56,9 @@ lub
 gh repo create moj-projekt --private
 gh repo create --source=. --public
 gh repo create --clonecd 
+
+
+//Wszystkie operacje można wykonać w programie Visual Studio Code. 
 
 
 
